@@ -1,0 +1,102 @@
+
+
+
+.more-articles {
+    margin-top: 3vh;
+}
+
+.more-post-items {
+    display: flex;
+    margin-bottom: 1.2vh;
+    
+}
+
+.more-post-items h4 {
+    margin: 0;
+    font-size: 2vw;
+}
+
+.more-post-items h6{
+    margin: 0;
+    font-size: 1.2vw;
+}
+
+.more-post-items a{
+   text-decoration: none;
+   color: black;
+}
+
+.more-post-items a:hover {
+    color: rgb(255, 143, 38);
+}
+
+.more-item-desc {
+    margin-left: 1vw;
+    width: 40vw;
+       
+}
+
+.more-parafont {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8vw;
+}
+
+.latest4 {
+    background: url('../img/ikkoku.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 16vw;
+    width: 30vw;  
+}
+
+.latest5 {
+    background: url('../img/training.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+    height: 16vw;
+    width: 30vw;  
+}
+
+.latest6 {
+    background: url('../img/hokuto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0vw;
+    height: 16vw;
+    width: 30vw;  
+}
+
+.latest7 {
+    background: url('../img/Pocket-Monsters-Poster-full.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -14vw;
+    height: 16vw;
+    width: 30vw;  
+}
+
+.load-more {
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.load-more a {
+    text-decoration: none ;
+    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 143, 38);
+}
+
+.gray-bar {
+    border: .25vh solid rgb(199, 199, 199);
+    background-color: rgb(199, 199, 199);
+}
+
+.gray-bar2 {
+    border: .2vh solid rgb(199, 199, 199);
+    background-color: rgb(199, 199, 199);
+
+}
+
+

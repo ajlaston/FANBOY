@@ -1,0 +1,271 @@
+@media only screen and (max-width: 750px) {
+
+    @font-face {
+        font-family: brush2;
+        src: url(/fonts/bellada\ personal\ license.ttf);
+    }
+
+    .site-navbar {
+        background-color: white;  
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .mobile-nb {
+        display: initial;
+        float: right;
+        padding: 12.5px;
+        color: rgb(138, 138, 138);
+        
+    }
+
+    .nav {
+        display: none;
+    }
+
+    #mNavContent a{
+        background-color: rgb(49, 49, 49);
+        display: block;
+        text-decoration: none;
+        padding: 12px;
+        position: relative;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .banner-desc-container {
+        background-color: rgba(255, 255, 255, 0.705);
+        display: inline-block;
+        height: 27vw;
+        width: 27vw;
+        border-radius: 20vw;
+        position: relative;
+        left: 5vw;
+        top: 7vw;
+    }
+    
+    .banner-desc-container h6 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2vw;
+        position: relative;
+        left: 4.34vw;
+        bottom: 2vh;
+        color: rgb(255, 143, 38);
+    }
+    
+    .banner-desc {
+        font-size: 3vw;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        left: 2.2vw;
+        top: 3vw;
+        color: rgb(92, 92, 94);
+        font-family: 'Shrikhand', cursive;
+    }
+
+    .previous-banners {
+        background-color:white;
+        margin-bottom: 0;
+        display: block;
+        margin-top: 2vh;
+    }
+
+    .sub-banner {
+        
+        width: 94vw;
+        height: 50vw;
+        margin-left: 3vw;
+    }
+    
+    .banner-item p {
+        display: inline-block;
+        color: white;
+        background-color: rgb(255, 143, 38);
+        padding: .5vh;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 3vw;
+    }
+
+    .banner-item h4 {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        background-color: rgba(0, 0, 0, 0.486);
+        display: inline-block;
+        margin-top: 19vw;
+        padding: 1vw;
+        font-size: 3.2vw;
+    }
+
+    .model1 {
+        display: block;
+    }
+    
+    .post1 {
+        background: url('../img/newX.jpg');
+        background-size: 100%;
+        height: 55vw;
+        width: 84.5vw;
+        background-position-y: 94vw;
+        margin-bottom: 2vh;
+        
+    }
+
+    .post1-container {
+        display: inline-block;
+        position: relative;
+        left: 1.3vw;
+        top: 2vh;
+        padding: 2vw;
+        border-radius: 18vw;
+        width: 23vw;
+        height: 23vw;
+        background-color: rgb(44, 44, 44);
+    }
+    
+    .post1 h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3vw;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin-bottom: 0;
+        position: relative;
+        bottom: 1vw;
+    }
+    
+    .post1 h6 {
+        margin: 0;
+        margin-left: 2.5vw;
+        margin-top: 1vw;
+        color: white;
+        font-size: 1.8vw;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .love-you {
+        font-family: brush2;
+        font-size: 4vw;
+        text-align: center;
+        display: inline-block;
+        color: rgb(255, 143, 38);
+        margin-bottom: 0;
+        margin-top: 1vw;
+        margin-left: 2vw;
+        position: relative;
+        bottom: 1vw;
+    }
+
+    .sub-posts {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .sub-posts hr {
+        width: 84.5vw;
+        margin: 0;
+        border: 0;
+        border-top: rgb(255, 143, 38) solid;
+        
+    }
+
+    .latest1 {
+        background: url('../img/t-sensei.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 20vw;
+        width: 40vw;
+           
+    }
+
+    .latest2 {
+        background: url('../img/calvinHobbes.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 20vw;
+        width: 40vw; 
+    }
+
+    .latest3 {
+        background: url('../img/Samurai-8.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 20vw;
+        width: 40vw; 
+        
+    }
+
+    .post-item {
+        display: flex;
+        margin-top: 3.2vw;
+        margin-bottom: 1vw;
+    }
+    
+    .post-item h4 {
+        font-size: 2.6vw;
+        margin: 0;
+    }
+    
+    .post-item h6 {
+        margin: 0;
+    }
+    
+    .item-desc {
+        margin-left: 1vw;
+        width: 50vw;
+        margin-top: 0;
+        margin-bottom: 2.4vw;
+    }
+    
+    .item-desc p {
+        margin: 0;
+        font-size: 3vw;
+    }
+
+    .latest-author {
+        font-size: 2.2vw;
+    }
+
+    .latest-date {
+        font-size: 2vw;
+    }
+
+    .separator {
+        display: none;
+    }
+
+    .more-articles {
+        margin-top: 2vh;
+    }
+
+    .more-post-items h4 {
+        margin: 0;
+        font-size: 2.5vw;
+    }
+
+    .more-post-items h6{
+        margin: 0;
+        font-size: 2vw;
+    }
+
+    .more-parafont {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 2.4vw;
+        margin-top: .2vh;
+    }
+
+    .load-more a {
+        font-size: 4vw;
+        
+    }
+
+    .footer-nav a {
+        margin-top: 1vh;
+        font-size: 2vw;
+    }
+
+    footer .copyright {
+        font-size: 2vw;
+    }
+}
